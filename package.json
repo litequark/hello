@@ -1,5 +1,28 @@
 {
   "devDependencies": {
     "@types/node": "^22.15.29"
-  }
+  },
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "A Node.js HTTP server",
+  "main": "hello.js",
+  "dependencies": {
+    "undici-types": "^6.21.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litequark/hello.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "zkm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/litequark/hello/issues"
+  },
+  "homepage": "https://github.com/litequark/hello#readme"
 }
